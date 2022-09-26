@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Program koukulator</title>
+</head>
+<body>
+
+<h2>Hitung Nilai</h2>
+
+<form name="form" action="javascript:void(0);">
+	<table>
+		<tr>
+			<td>Nilai Tugas (20%)</td>
+			<td><input type="text" name="ntgs"></td>
+		</tr>
+		<tr>
+			<td>Nilai UTS (35%)</td>
+			<td><input type="text" name="nuts"></td>
+		</tr>
+		<tr>
+			<td>Nilai UAS (45%)</td>
+			<td><input type="text" name="nuas"></td>
+		</tr>
+		<tr>
+			<td>Nilai Akhir</td>
+			<td><input type="text" name="nakhir" disabled></td>
+		</tr>
+		<tr>
+			<td>Nilai Huruf</td>
+			<td><input type="text" name="nhuruf" disabled></td>
+		</tr>
+		<tr>
+			<td>Predikat</td>
+			<td><input type="text" name="predikat" disabled></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="hasil" value="hitung" onclick="nilaiakhir()"></td>
+			<td><input type="reset" name="reset"></td>
+		</tr>
+	</table>
+</form>
